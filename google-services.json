@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "257745076098",
+    "firebase_url": "https://nakleeya-default-rtdb.firebaseio.com",
+    "project_id": "nakleeya",
+    "storage_bucket": "nakleeya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257745076098:android:5e48a5619b744ac87c599b",
+        "android_client_info": {
+          "package_name": "com.adel_886.myPro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArHryoKfebQFs4M631EbtENxxOMCFYqFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

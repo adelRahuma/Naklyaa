@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +19,43 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.adel_886.myPro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow MyApp to use your location."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f4879c9f-bf11-473e-aa77-9395efe59e35"
+      },
+      "API_KEY": "AIzaSyDNSITsSWtklYteq25SyMYiqYX552JQTqo",
+      "GOOGLE_MAPS_API_KEY": "AIzaSyBSR0YLAWrFIrjXLEGmxsmjIEPPwYOsyB4",
+      "AUTH_DOMAIN": "nakleeya.firebaseapp.com",
+      "PROJECT_ID": "nakleeya",
+      "DATABASE_URL": "https://nakleeya-default-rtdb.firebaseio.com",
+      "STORAGE_BUCKET": "nakleeya.appspot.com",
+      "MESSAGING_ID": "257745076098",
+      "APP_ID": "1:257745076098:web:977c8e7fd44fb25c7c599b",
+      "ADMIN_EMAIL": "admin@tatweer.co.uk",
+      "P_W": "asd123"
+    },
+    "notification": {
+      "vapidPublicKey": "BEDICcLaey9yB3TcyFIfmS6wwcUYuHltgLz24LQ3G_ZUj6L5lDCEKtEVp2FjWd84LR90Wp0Mod5uaGm61V1nbRc"
+    },
+    "owner": "adel_886"
   }
 }
